@@ -1,0 +1,13 @@
+.footer{
+    grid-column: 1 / -1;
+    grid-row: 7 ;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.footer h1{
+    color: #ebebeb
+}

@@ -1,0 +1,30 @@
+.main{
+    grid-column: 1 / -1;
+    grid-row: 3 / 7;
+    background-color: aqua;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.main h1{
+    color: #ebebeb
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 768px){
+    main.main{
+      grid-column: 1 / -1;
+      grid-row: 3 / 5;
+    }
+  }
+  
+  /* Mobile */
+@media (max-width: 480px) {
+    main.main {
+        grid-column: 1;
+        grid-row: 3 / 8;
+    }
+}

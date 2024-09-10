@@ -1,0 +1,13 @@
+.nav{
+    grid-column: 1 / -1;
+    grid-row: 2;
+    box-sizing: border-box;
+    background: #154854;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.nav h1{
+    color: #ebebeb
+}

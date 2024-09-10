@@ -1,18 +1,17 @@
-import "./style/style.css"
-// import Header from './Header.js';
-// import Nav from './Nav.js';
-// import Main from './Main..js';
-// import Footer from './Footer';
-
+import "./style/App.css"
+import HEADER from "./layout/Header.components";
+import NAV from "./layout/Nav.components";
+import MAIN from "./layout/Main.components";
+import FOOTER from "./layout/Footer.components";
 function App() {
   return (
     <div className="App">
       <div className="container">
-        {/* <Header />
-        <Nav />
-        <Main />
-        <Footer /> */}
-        <h1>HOME</h1>
+        
+        <HEADER></HEADER>
+        <NAV></NAV>
+        <MAIN></MAIN>
+        <FOOTER></FOOTER>
       </div>
     </div>
   );
