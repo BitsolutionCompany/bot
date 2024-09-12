@@ -1,9 +1,10 @@
 import './style/Header.modules.css'
+import LOGO from '../components/Logo.components';
 
 function HEADER(){
     return(
         <header className="header">
-            <h1>HEADER</h1>
+            <LOGO></LOGO>
         </header>
     )
 }

@@ -27,6 +27,6 @@
 @media (max-width: 480px) {
     div.container {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(10, 2fr);
+      grid-template-rows: repeat(7, 2fr);
     }
 }

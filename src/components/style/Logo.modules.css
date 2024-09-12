@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Breathney;
+    src: url('../../fonts/Breathney Demo.ttf'); /* assuming the font file is in the same directory as the CSS file */
+}
+
+.box{
+    
+    margin-left: 6px;
+}
+.name h1{
+    color: #ebebeb;
+    text-align: center;
+    font-transform: uppercase;
+    font-family: Breathney;
+    font-size: 1.5rem;
+}
+
+
+
+/* Tablet */
+@media only screen and (max-width: 768px){
+    .name{
+        width: 100px;
+        margin-left: 10px
+    }
+    .name h1{
+        font-size: 1.2rem
+    }
+}
+  
+  /* Mobile */
+@media (max-width: 480px) {
+    .name{
+        width: 100px;
+    }
+    .name h1{
+        font-size: 1rem
+    }
+}

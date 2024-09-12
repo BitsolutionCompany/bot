@@ -1,13 +1,12 @@
 .header{
     grid-column: 1 / -1;
     grid-row: 1;
-    height: 100px;
+    height: 120px;
     box-sizing: border-box;
     background: #000;
     display: flex;
-    justify-content: center;
+    /*  justify-content: center; */
     align-items: center;
-    padding: 5px;
 }
 .header h1{
     color: #ebebeb
