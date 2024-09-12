@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: Breathney;
     src: url('\./fonts/Breathney Demo.ttf');
-}
+} */
 
 .box{
     
@@ -10,7 +10,7 @@
 .name h1{
     color: #ebebeb;
     text-align: center;
-    font-family: Breathney;
+    font-family: Arial;
     font-size: 1.5rem;
 }
 
