@@ -1,17 +1,13 @@
-/* @font-face {
-    font-family: Breathney;
-    src: url('\./fonts/Breathney Demo.ttf');
-} */
+@import url('../../style/fontes.css');
 
 .box{
-    
-    margin-left: 6px;
+    margin-left: 15px;
 }
 .name h1{
     color: #ebebeb;
     text-align: center;
-    font-family: Arial;
-    font-size: 1.5rem;
+    font-family: Autography;
+    font-size: 2rem;
 }
 
 
@@ -23,7 +19,7 @@
         margin-left: 10px
     }
     .name h1{
-        font-size: 1.2rem
+        font-size: 1.5rem
     }
 }
   
@@ -33,6 +29,6 @@
         width: 100px;
     }
     .name h1{
-        font-size: 1rem
+        font-size: 1.3rem
     }
 }

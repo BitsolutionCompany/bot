@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.list_menu{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+#items_link{
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 1.5rem;
+    color: #ebebeb;
+    font-family: 'Opens Sans', sans-serif;
+}
+
+
+
+
+/* Tablet */
+@media only screen and (max-width: 768px){
+    .list_menu{
+        display: none;
+    }
+  }
+  
+  /* Mobile */
+@media (max-width: 480px) {
+    .list_menu{
+        display: none;
+    }
+}
