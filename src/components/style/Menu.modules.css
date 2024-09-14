@@ -18,7 +18,7 @@
 
 
 /* Tablet */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 780px){
     .list_menu{
         display: none;
     }

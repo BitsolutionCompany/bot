@@ -2,9 +2,9 @@ import './style/Footer.modules.css'
 
 function FOOTER(){
     return(
-        <header className="footer">
+        <footer className="footer">
             <h1>FOOTER</h1>
-        </header>
+        </footer>
     )
 }
 

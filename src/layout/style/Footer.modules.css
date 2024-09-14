@@ -13,15 +13,16 @@
 }
 
 /* Tablet */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 780px){
     footer.footer{
-        grid-row: 7;
+        grid-column: 1 / -1;
+        grid-row: 9;
     }
   }
   
   /* Mobile */
 @media (max-width: 480px) {
     footer.footer{
-        grid-row: 10;
+        grid-row: 9;
     }
 }
