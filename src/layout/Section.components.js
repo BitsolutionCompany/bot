@@ -1,4 +1,5 @@
 import './style/Section.modules.css'
+// import { Carousel } from 'react-bootstrap'
 
 function SECTION(){
     return(

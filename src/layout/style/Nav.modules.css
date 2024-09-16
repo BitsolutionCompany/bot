@@ -6,8 +6,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
-}
-.nav h1{
-    color: #ebebeb
+    max-height: 100px;
 }

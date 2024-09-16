@@ -31,26 +31,28 @@ function MOBILEMENU(){
             <div className={`modal ${isOpen ? 'open' : ''}`}>
                 <div className='mobileMenu'>
                     <ul className='list_menu_mobile'>
-                        <Link to="/">
-                            <li id='items_link_mobile'>
-                                Home
-                            </li>
-                        </Link>
-                        <Link to="/empresa">
-                            <li id='items_link_mobile'>
-                                Empresa
-                            </li>
-                        </Link>
-                        <Link to="/contato">
-                            <li id='items_link_mobile'>
-                                Contato
-                            </li>
-                        </Link>
-                        <Link to="/vender">
-                            <li id='items_link_mobile'>
-                                Como Vender?
-                            </li>
-                        </Link>
+                        <div className='center'>
+                            <Link to="/">
+                                <li id='items_link_mobile' onClick={hideMenu}>
+                                    Home
+                                </li>
+                            </Link>
+                            <Link to="/empresa">
+                                <li id='items_link_mobile' onClick={hideMenu}>
+                                    Empresa
+                                </li>
+                            </Link>
+                            <Link to="/contato">
+                                <li id='items_link_mobile' onClick={hideMenu}>
+                                    Contato
+                                </li>
+                            </Link>
+                            <Link to="/vender">
+                                <li id='items_link_mobile' onClick={hideMenu}>
+                                    Como Vender?
+                                </li>
+                            </Link>
+                        </div>
                     </ul>
                     <button onClick={hideMenu} className='close-button'>
                         X

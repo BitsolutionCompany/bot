@@ -1,6 +1,6 @@
 .main{
     grid-column: 1 / -1;
-    grid-row: 5 / 7;
+    grid-row: 4 / 7;
     background-color: aqua;
     box-sizing: border-box;
     display: flex;
@@ -17,7 +17,7 @@
 @media only screen and (max-width: 780px){
     main.main{
       grid-column: 1 / -1;
-      grid-row: 5 / 9;
+      grid-row: 4 / 9;
     }
   }
   
@@ -25,6 +25,6 @@
 @media (max-width: 480px) {
     main.main {
         grid-column: 1;
-        grid-row: 5 / 9;
+        grid-row: 4 / 9;
     }
 }
