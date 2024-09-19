@@ -6,7 +6,8 @@ import './style/Carroussel.modules.css'
 function CARROUSEL(){
     return(
       <div className="caixa">
-        <img src={require('./../images/carrousel/item2.png')} alt="nome da imagem" />
+        <img src={require('./../images/carrousel/item1.png')} alt="nome da imagem" />
+        {/* <img src={require('./../images/carrousel/item2.png')} alt="nome da imagem" /> */}
       </div>
     )
 }
