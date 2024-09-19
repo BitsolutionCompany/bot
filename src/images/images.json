@@ -1,0 +1,16 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "nome": "Imagem 1",
+            "descricao": "Descrição da imagem 1",
+            "url": "images/carrousel/item1.png"
+        },
+        {
+            "id": 1,
+            "nome": "Imagem 2",
+            "descricao": "Descrição da imagem 2",
+            "url": "images/carrousel/item2.png"
+        }
+    ]
+}

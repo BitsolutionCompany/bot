@@ -2,6 +2,7 @@ import "./style/App.css"
 import HEADER from "./layout/Header.components";
 import FOOTER from "./layout/Footer.components";
 
+
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import HOME from './pages/Home';
 import EMPRESA from './pages/Empresa';
