@@ -1,28 +1,29 @@
-.footer{
-    grid-column: 1 / -1;
-    grid-row: 7 ;
-    background-color: blueviolet;
+.footer {
+    align-items: center;
+    background-color: #8a2be2;
     box-sizing: border-box;
     display: flex;
+    grid-column: 1 / -1;
+    grid-row: 6;
     justify-content: center;
-    align-items: center;
     padding: 5px;
+	height: 100px;
 }
 .footer h1{
     color: #ebebeb
 }
 
 /* Tablet */
-@media only screen and (max-width: 780px){
+/* @media only screen and (max-width: 780px){
     footer.footer{
         grid-column: 1 / -1;
         grid-row: 9;
     }
   }
-  
+   */
   /* Mobile */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     footer.footer{
         grid-row: 9;
     }
-}
+} */
