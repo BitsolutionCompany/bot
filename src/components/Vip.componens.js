@@ -6,7 +6,9 @@ function VIP() {
         <fieldset className="caixa-vip">
             <legend>Linha Vip</legend>
             <div className="slider-container">
-                
+                <div className="box-produto">
+                    
+                </div>
             </div>
         </fieldset>
     )
