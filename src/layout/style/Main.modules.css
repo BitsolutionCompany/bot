@@ -1,14 +1,11 @@
 .main{
 	align-items: center;
-    background-color: aqua;
     box-sizing: border-box;
-    display: flex;
     grid-column: 1 / -1;
-    justify-content: center;
     grid-row: 3 / 6;
     padding: 5px;
-	display: grid;
     min-height: 300px;
+	display: grid; 
 	grid-template-row: repeat(3, 100px);
 }
 .main h1{

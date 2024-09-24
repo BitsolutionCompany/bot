@@ -7,11 +7,11 @@ function CARROUSEL(){
     var settings = {
       dots: false,
       infinite: true,
-      speed: 2000,
+      speed: 4000,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 4000,
       cssEase: "linear"
     };
     return(

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.caixa-vip{
+    min-height: 100px;
+    text-align: center;
+    border: none;
+    border-top: 2px solid black;
+}
+.caixa-vip legend{
+    padding: 0px 10px 0px 10px;
+    font-family: 'Opens Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
