@@ -1,0 +1,58 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "name": "VIP 01",
+        "price": 74.99,
+        "stock": 0,
+        "description": "212: Carolina Herrera",
+        "image_url": "images/produtos/prod-vip.png",
+        "gender": "Feminino"
+      },
+      {
+        "id": 2,
+        "name": "VIP 02",
+        "price": 74.99,
+        "stock": 0,
+        "description": "212 Men: Carolina Herrera",
+        "image_url": "images/produtos/prod-vip.png",
+        "gender": "Masculino"
+      },
+      {
+        "id": 3,
+        "name": "VIP 03",
+        "price": 74.99,
+        "stock": 0,
+        "description": "My Way: Giorgio Armani",
+        "image_url": "images/produtos/prod-vip.png",
+        "gender": "Feminino"
+      },
+      {
+        "id": 4,
+        "name": "VIP 04",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Silver Scent: Jacques Bogart",
+        "image_url": "images/produtos/prod-vip.png",
+        "gender": "Masculino"
+      },
+      {
+        "id": 5,
+        "name": "VIP 05",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Lady Million: Paco Rabanne",
+        "image_url": "images/produtos/prod-vip.png",
+        "gender": "Feminino"
+      },
+      {
+        "id": 6,
+        "name": "VIP 06",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Polo Green: Ralph Lauren",
+        "image_url": "images/produtos/prod-vip.png",
+        "gender": "Masculino"
+      }
+    ]
+  }
