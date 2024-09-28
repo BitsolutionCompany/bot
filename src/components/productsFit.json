@@ -1,0 +1,67 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "name": "Noronha",
+        "price": 74.99,
+        "stock": 0,
+        "description": "L'Eaud'Issey Pour Homme: Issey Miyake",
+        "image_url": "images/produtos/prod-fit.png",
+        "gender": "Masculino"
+      },
+      {
+        "id": 2,
+        "name": "Cancún",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Polo Ultra Blue: Ralph Lauren",
+        "image_url": "images/produtos/prod-fit.png",
+        "gender": "Masculino"
+      },
+      {
+        "id": 3,
+        "name": "Havaí",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Acqua Di Gió - Giorgio Armani",
+        "image_url": "images/produtos/prod-fit.png",
+        "gender": "Masculino"
+      },
+      {
+        "id": 4,
+        "name": "Ibiza",
+        "price": 74.99,
+        "stock": 0,
+        "description": "CK One: Calvin Klein",
+        "image_url": "images/produtos/prod-fit.png",
+        "gender": "Unissex"
+      },
+      {
+        "id": 5,
+        "name": "Maldivas",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Light Blue: Dolce & Gabbana",
+        "image_url": "images/produtos/prod-fit.png",
+        "gender": "Feminino"
+      },
+      {
+        "id": 6,
+        "name": "Caribe",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Acqua Di Gió Profondo: Giorgio Armani",
+        "image_url": "images/produtos/prod-fit.png",
+        "gender": "Masculino"
+      },
+      {
+        "id": 7,
+        "name": "Santorini",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Versense: Versace",
+        "image_url": "images/produtos/prod-fit.png",
+        "gender": "Masculino"
+      }
+    ]
+  }

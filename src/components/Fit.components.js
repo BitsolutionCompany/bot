@@ -1,9 +1,9 @@
-import './style/Vip.modules.css'
+import './style/Fit.modules.css'
 import React, { useState, useEffect } from 'react'
-import productsData from './productsVip.json';
+import productsData from './productsFit.json';
 import Slider from "react-slick"
 
-function VIP() {
+function FIT() {
     const [products, setProducts] = useState([])
 
     useEffect(() => {
@@ -49,11 +49,11 @@ function VIP() {
       <link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
       {/* items do slider */}
-      <legend>Linha Vip</legend>
+      <legend>Linha Fit</legend>
       
-          <div className="slider-container-vip">
+          <div className="slider-container-fit">
             <div className="produtos">
-              <Slider {...settings} data-slick="slider-container-vip">
+              <Slider {...settings} data-slick="slider-container-fit">
                 {products.map(product => (
                   <div key={product.id}>
                     <div className='box-produto'>
@@ -86,4 +86,4 @@ function VIP() {
   </fieldset>
     )
 }
-export default VIP
+export default FIT
