@@ -50,40 +50,39 @@ function VIP() {
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
       {/* items do slider */}
       <legend>Linha Vip</legend>
-      
-          <div className="slider-container-vip">
-            <div className="produtos">
-              <Slider {...settings} data-slick="slider-container-vip">
-                {products.map(product => (
-                  <div key={product.id}>
-                    <div className='box-produto'>
-                      <div className='img'>
-                          <img src={require(`./../${product.image_url}`)} alt={product.name} />
-                      </div>
-                      <div className="info_prod">
-                          <h3>{product.name}</h3>
-                          <div id="gender">
-                            <h2>{product.gender}</h2>
-                          </div>
-                          <div id="desc">
-                            <h2>{product.description}</h2>
-                          </div>
-                          <div id="price">
-                            <h2>R$ {product.price.toLocaleString()}</h2>
-                          </div>
-                          <div id="estoque">
-                            {product.stock <= 0 ? <h2>Indisponivel</h2> :
-                              <h2>Disponivel: {product.stock}</h2>
-                            }
-                          </div>
-                      </div>
-                    </div>
+      <div className="slider-container-vip">
+        <div className="produtos">
+          <Slider {...settings} data-slick="slider-container-vip">
+            {products.map(product => (
+              <div key={product.id}>
+                <div className='box-produto'>
+                  <div className='img'>
+                      <img src={require(`./../${product.image_url}`)} alt={product.name} />
                   </div>
-                ))}
-              </Slider>
-            </div>
-          </div>
-  </fieldset>
+                  <div className="info_prod">
+                      <h3>{product.name}</h3>
+                      <div id="gender">
+                        <h2>{product.gender}</h2>
+                      </div>
+                      <div id="desc">
+                        <h2>{product.description}</h2>
+                      </div>
+                      <div id="price">
+                        <h2>R$ {product.price.toLocaleString()}</h2>
+                      </div>
+                      <div id="estoque">
+                        {product.stock <= 0 ? <h2>Indisponivel</h2> :
+                          <h2>Disponivel: {product.stock}</h2>
+                        }
+                      </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
+    </fieldset>
     )
 }
 export default VIP

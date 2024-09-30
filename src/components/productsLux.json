@@ -1,0 +1,94 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "name": "Carlos V",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Oud Wood Tom Ford",
+        "image_url": "images/produtos/prod-lux.png",
+        "gender": "Masculino"
+      },
+      {
+        "id": 2,
+        "name": "Luís XIV",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Aventus Creed",
+        "image_url": "images/produtos/prod-lux.png",
+        "gender": "Masculino"
+      },
+      {
+        "id": 3,
+        "name": "Versalhes",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Kalan Parfums de Marly",
+        "image_url": "images/produtos/prod-lux.png",
+        "gender": "Unissex"
+      },
+      {
+        "id": 4,
+        "name": "Filipe II",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Garanat Bvulgari",
+        "image_url": "images/produtos/prod-lux.png",
+        "gender": "Masculino"
+      },
+      {
+        "id": 5,
+        "name": "Fernando I",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Oud For Greatness",
+        "image_url": "images/produtos/prod-lux.png",
+        "gender": "Masculino"
+      },
+      {
+        "id": 6,
+        "name": "Edimburgo",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Hacivat",
+        "image_url": "images/produtos/prod-lux.png",
+        "gender": "Masculino"
+      },
+      {
+        "id": 7,
+        "name": "Eliza II",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Bonbon Viktor e Rolf",
+        "image_url": "images/produtos/prod-lux.png",
+        "gender": "Feminino"
+      },
+      {
+        "id": 8,
+        "name": "Elizabeth II",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Aventus Creed",
+        "image_url": "images/produtos/prod-lux.png",
+        "gender": "Feminino"
+      },
+      {
+        "id": 9,
+        "name": "Charlotte",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Delina - Parfums de Marly",
+        "image_url": "images/produtos/prod-lux.png",
+        "gender": "Feminino"
+      },
+      {
+        "id": 10,
+        "name": "George III",
+        "price": 74.99,
+        "stock": 0,
+        "description": "Haltane - Parfum de Marly",
+        "image_url": "images/produtos/prod-lux.png",
+        "gender": "Feminino"
+      }
+    ]
+}

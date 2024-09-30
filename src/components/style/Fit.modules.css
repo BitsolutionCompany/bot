@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-.caixa-vip{
+.caixa-fit{
     min-height: 300px;
     text-align: center;
     border: none;
@@ -9,7 +9,7 @@
     width: 100%;
     margin: 0 auto;
 }
-.caixa-vip legend{
+.caixa-fit legend{
     padding: 0px 10px 0px 10px;
     font-family: 'Opens Sans', sans-serif;
     font-weight: bold;
@@ -21,17 +21,17 @@
     width: 100%;
     margin: 0 auto;
 }
-.produtos{
+.slider-container-fit .produtos{
     margin-top: 20px;
     width: 100%;
 }
-div.img{
+.slider-container-fit div.img{
     object-fit: contain;
     width: 100px;
     height: 100px;
     margin: 0px auto 0px;
 }
-div.img img{
+.slider-container-fit div.img img{
     width: 100%;
     height: 100%;
     margin-top: 10px;
@@ -55,26 +55,26 @@ div.img img{
     height: 50px;
     border-radius: 50%;
 }
-div.box-produto div.info_prod h3{
+.slider-container-fit div.box-produto div.info_prod h3{
     color: darkgreen;
     font-size: 1.6rem;
 }
-div.box-produto div.info_prod div#estoque h2{
+.slider-container-fit div.box-produto div.info_prod div#estoque h2{
     font-size: 1rem;
     color: #FF0000;
     padding: 5px;
 }
-div.box-produto div.info_prod div#gender h2{
+.slider-container-fit div.box-produto div.info_prod div#gender h2{
     font-size: 1rem;
     color: green;
     padding: 5px;
 }
-div.box-produto div.info_prod div#desc h2{
+.slider-container-fit div.box-produto div.info_prod div#desc h2{
     font-size: 1rem;
     color: green;
     padding: 5px;
 }
-div.box-produto div.info_prod div#price h2{
+.slider-container-fit div.box-produto div.info_prod div#price h2{
     font-size: 2rem;
     color: #000;
     padding: 5px;
@@ -91,12 +91,15 @@ div.box-produto div.info_prod div#price h2{
     font-size: 2rem !important;
     z-index: 2;
 }
+.slider-container-fit .slick-dots{
+    display: none !important;
+}
 
 
-  /* Mobile */
+/* Mobile */
 @media (max-width: 480px) {
-    div.box-produto{
-        width: 70%;
-        margin: 0px auto 0px;
+    .slider-container-fit div.box-produto{
+        width: 75% !important;
+        margin: 0px auto 10px !important;
     }
 }

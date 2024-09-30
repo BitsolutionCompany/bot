@@ -1,5 +1,6 @@
 import VIP from '../components/Vip.componens';
 import FIT from '../components/Fit.components';
+import LUX from '../components/Lux.components';
 import './style/Main.modules.css'
 
 
@@ -8,6 +9,7 @@ function MAIN(){
         <main className="main">
             <VIP></VIP>
             <FIT></FIT>
+            <LUX></LUX>
         </main>
     )
 }
