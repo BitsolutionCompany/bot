@@ -11,9 +11,8 @@ function MAIN(){
                     onCanPlay={() => console.log('O arquivo de áudio está pronto para ser reproduzido')}
                     onError={() => console.log('Ocorreu um erro ao carregar o arquivo de áudio')}
                     className="audio-player"
-                    onLoad={() => {
-                        this.audioPlayer.play();
-                    }}
+                    autoPlay
+                    controlsList="nodownload"
                 />
                 <p>
                     Inspirada pela elegância de Paris, a TouTi Cosmetics nasceu para proporcionar mais confiança a homens e mulheres. Acreditamos que os perfumes são essenciais para construir e afirmar a personalidade, além de promover o bem-estar. Nossas diversas fragrâncias permitem que cada pessoa explore diferentes facetas de si mesma.
