@@ -1,29 +1,79 @@
-.footer {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.footer{
     align-items: center;
-    background-color: #8a2be2;
+    background-color: #000000;
     box-sizing: border-box;
     display: flex;
-    grid-column: 1 / -1;
-    grid-row: 6;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 5px;
-	height: 100px;
+    padding: 20px;
+    min-height: 100px;
+    width: 100%;
+    grid-column: 1 / -1;
+    font-family: 'Open Sans', sans-serif;
 }
-.footer h1{
-    color: #ebebeb
+.footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.footer li{
+    margin-right: 20px;
+    padding: 2px;
+    min-width: 100px;
+    text-align: center
+}
+.footer h4{
+    margin-top: 0;
+    font-weight: bold;
+    color: #ebebeb;
+    font-size: 1.2rem;
+}
+.footer ul ul{
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.footer ul ul li{
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+.footer a:hover{
+    color: #ccc;
+}
+.footer .data {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+    border-right: solid 2px #fff;
+}
+  
 
-/* Tablet */
-/* @media only screen and (max-width: 780px){
-    footer.footer{
-        grid-column: 1 / -1;
-        grid-row: 9;
+
+@media (max-width: 768px){
+    .footer ul{
+        flex-direction: column;
+        width: 100%
     }
-  }
-   */
-  /* Mobile */
-/* @media (max-width: 480px) {
-    footer.footer{
-        grid-row: 9;
+    .footer li{
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
     }
-} */
+    footer .data {
+        border: none !important;
+        padding: 2px !important;
+    }
+}
