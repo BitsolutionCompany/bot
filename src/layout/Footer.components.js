@@ -15,8 +15,8 @@ function FOOTER() {
   }, []);
 
   return (
-    <footer class="footer">
-      <div class="data">
+    <footer className="footer">
+      <div className="data">
         de 17/02/2024 até {data.toLocaleDateString()}
       </div>
       <ul>
