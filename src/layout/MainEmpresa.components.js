@@ -1,9 +1,20 @@
 import './style/MainEmpresa.modules.css'
+import AudioPlayer from 'react-audio-player'
 
 function MAIN(){
     return(
         <main className='mainEmpresa'>
             <section className='sectionEmpresa'>
+                <AudioPlayer
+                    src={require('./../songs/audio1.mp3')}
+                    controls
+                    onCanPlay={() => console.log('O arquivo de áudio está pronto para ser reproduzido')}
+                    onError={() => console.log('Ocorreu um erro ao carregar o arquivo de áudio')}
+                    className="audio-player"
+                    onLoad={() => {
+                        this.audioPlayer.play();
+                    }}
+                />
                 <p>
                     Inspirada pela elegância de Paris, a TouTi Cosmetics nasceu para proporcionar mais confiança a homens e mulheres. Acreditamos que os perfumes são essenciais para construir e afirmar a personalidade, além de promover o bem-estar. Nossas diversas fragrâncias permitem que cada pessoa explore diferentes facetas de si mesma.
                 </p>
