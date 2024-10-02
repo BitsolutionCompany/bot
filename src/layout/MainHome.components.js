@@ -1,7 +1,7 @@
 import VIP from '../components/Vip.componens';
 import FIT from '../components/Fit.components';
 import LUX from '../components/Lux.components';
-import './style/Main.modules.css'
+import './style/MainHome.modules.css'
 
 
 function MAIN(){

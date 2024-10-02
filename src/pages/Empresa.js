@@ -1,9 +1,10 @@
+import MAIN from "../layout/MainEmpresa.components"
+
 function EMPRESA(){
     return(
-        <div>
-            <h1>EMPRESA</h1>
-            <p>Conteudo da Pagina</p>
-        </div>
+        <>
+            <MAIN></MAIN>
+        </>
         
     )
 }
