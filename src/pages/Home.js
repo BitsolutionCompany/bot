@@ -5,8 +5,8 @@ import SECTION from "../layout/Section.components";
 function HOME(){
     return(
         <>
-        <SECTION></SECTION>
-        <MAIN></MAIN>
+            <SECTION></SECTION>
+            <MAIN></MAIN>
         </>
     )
 }
