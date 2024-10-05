@@ -1,4 +1,5 @@
 @import '../../style/fontes.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .mainContatos{
 	align-items: center;
@@ -20,9 +21,9 @@
 .list-contacts-city li#box-contacts {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    width: 25%;
+    width: 27%;
     min-width: 250px;
-    height: 300px;
+    min-height: 300px;
     margin: 20px;
     background-color: #fff;
     padding: 20px;
@@ -70,6 +71,24 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.list-contacts-city li#box-contacts div.address {
+    display: flex;
+}
+.list-contacts-city li#box-contacts div.address address{
+    text-align: justify;
+    font-size: .9rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.list-contacts-city li#box-contacts div.address svg{
+    font-size: 4rem;
+    margin-right:5px;
+}
+
+
+
+
+
+
 @media (max-width: 480px) {
     .mainContatos .sectionContatos{
         width: 100%;

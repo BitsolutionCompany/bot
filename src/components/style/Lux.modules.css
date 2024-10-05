@@ -11,7 +11,7 @@
 }
 .caixa-lux legend{
     padding: 0px 10px 0px 10px;
-    font-family: 'Opens Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -40,7 +40,7 @@
     margin: 10px 6px 20px 6px;
     padding: 10px;
     border: solid 1px #FF0000;
-    font-family: 'Opens Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     min-height: 310px;
     box-shadow: 0px 0px 10px #0c0c0;
     border-radius: 10px;
