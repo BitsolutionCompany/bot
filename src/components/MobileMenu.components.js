@@ -50,7 +50,7 @@ function MOBILEMENU(){
                             <Link to="/vender">
                                 <li id='items_link_mobile' onClick={hideMenu}>
                                     Como Vender?
-                                </li>
+                                </li> 
                             </Link>
                             <Link to="/cadastro">
                                 <li id='items_link_mobile' onClick={hideMenu}>
