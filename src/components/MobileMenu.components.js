@@ -52,6 +52,11 @@ function MOBILEMENU(){
                                     Como Vender?
                                 </li>
                             </Link>
+                            <Link to="/cadastro">
+                                <li id='items_link_mobile' onClick={hideMenu}>
+                                    Cadastro
+                                </li>
+                            </Link>
                         </div>
                     </ul>
                     <button onClick={hideMenu} className='close-button'>

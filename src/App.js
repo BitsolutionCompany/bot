@@ -8,6 +8,7 @@ import HOME from './pages/Home';
 import EMPRESA from './pages/Empresa';
 import CONTATO from './pages/Contato';
 import COMOVENDER from "./pages/Vender";
+import CADASTRO from "./pages/Cadastro";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Route path="/empresa" element={<EMPRESA />} />
               <Route path="/contato" element={<CONTATO />} />
               <Route path="/vender" element={<COMOVENDER />} />
+              <Route path="/cadastro" element={<CADASTRO />} />
           </Routes>
         </Router>
         <FOOTER></FOOTER>

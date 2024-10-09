@@ -24,6 +24,11 @@ function MENU(){
                     Como Vender?
                 </li>
             </Link>
+            <Link to="/cadastro">
+                <li id='items_link'>
+                    Cadastro
+                </li>
+            </Link>
         </ul>
     )
 }

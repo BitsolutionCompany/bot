@@ -53,7 +53,7 @@ function MAIN(){
                             </address>
                         </div>
                         <div className="social-media">
-                            <a href="https://w.app/" target="__blank" rel="noopener noreferrer">
+                            <a href="https://w.app/touticosmeticosipu" target="__blank" rel="noopener noreferrer">
                                 <button type='button' id='whatsapp'>
                                     Whatsapp
                                 </button>
