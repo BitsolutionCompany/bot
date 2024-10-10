@@ -10,7 +10,7 @@ function CADASTRO() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/submit', {
+      const response = await axios.post('https://touticosmetico.netlify.app:5000/submit', {
         nome,
         email,
       });
