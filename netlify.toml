@@ -1,3 +1,7 @@
 [functions]
   [functions.backend]
   src = "servidor/server.js"
+  external_node_modules = [
+    "module-one",
+    "module-two"
+  ]
