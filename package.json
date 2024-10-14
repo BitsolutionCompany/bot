@@ -1,8 +1,7 @@
 {
   "name": "project",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://touticosmetico.netlify.app", 
+  "private": true, 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -22,12 +21,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:react": "react-scripts start",
-    "start:backend": "cd servidor && npm start",
-    "start": "concurrently \"npm run start:react\" \"npm run start:backend\"",
-    "build:react": "react-scripts build",
-    "build:backend": "cd servidor && npm run build",
-    "build": "concurrently \"npm run build:react\" \"npm run build:backend\" \"serve -s build\""
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [

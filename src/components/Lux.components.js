@@ -4,11 +4,47 @@ import productsData from './productsLux.json'
 import Slider from "react-slick"
 
 function LUX(){
-    const [products, setProducts] = useState([])
+    const [products, setProducts] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
-        setProducts(productsData.produtos)
-    }, [])
+        setProducts(productsData.produtos);
+    }, []);
+
+    // const addToCart = (product) => {
+    //     const quantity = prompt(`Quantidade de ${product.name} que deseja adicionar ao carrinho?`);
+    //     const quantityNumber = parseInt(quantity);
+    
+    //     if (quantityNumber > 0 && quantityNumber <= product.stock) {
+    //         setCart((prevCart) => {
+    //             // Verifica se o produto já está no carrinho
+    //             const existingProduct = prevCart.find(item => item.id === product.id);
+                
+    //             if (existingProduct) {
+    //                 // Se o produto já estiver no carrinho, atualiza a quantidade
+    //                 return prevCart.map(item =>
+    //                     item.id === product.id
+    //                         ? { ...item, quantity: item.quantity + quantityNumber }
+    //                         : item
+    //                 );
+    //             } else {
+    //                 // Se não estiver, adiciona o novo produto ao carrinho
+    //                 return [...prevCart, { ...product, quantity: quantityNumber }];
+    //             }
+    //         });
+    
+    //         // Atualiza o estoque do produto
+    //         setProducts((prevProducts) => {
+    //             return prevProducts.map(item =>
+    //                 item.id === product.id
+    //                     ? { ...item, stock: item.stock - quantityNumber }
+    //                     : item
+    //             );
+    //         });
+    //     } else {
+    //         alert('Quantidade inválida ou produto indisponível');
+    //     }
+    // };
 
     const settings = {
         dots: false,
@@ -47,10 +83,10 @@ function LUX(){
 
     return(
         <fieldset className='caixa-lux'>
-            {/* Link que faz o slik funcionar */}
+            {/* Link que faz o slick funcionar */}
             <link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-            {/* items do slider */}
+            {/* Items do slider */}
             <legend>Linha Lux</legend>
             <div className='slider-container-lux'>
                 <div className='produtos'>
@@ -73,10 +109,13 @@ function LUX(){
                                             <h2>R$ {product.price.toLocaleString()}</h2>
                                         </div>
                                         <div id="estoque">
-                                            {product.stock <= 0 ? <h2>Indisponivel</h2> :
-                                            <h2>Disponivel: {product.stock}</h2>
+                                            {product.stock <= 0 ? <h2>Indisponível</h2> :
+                                            <h2>Disponível: {product.stock}</h2>
                                             }
                                         </div>
+                                        {/* {product.stock > 0 && (
+                                            <button onClick={() => addToCart(product)}>Adicionar ao Carrinho</button>
+                                        )} */}
                                     </div>
                                 </div>
                             </div>
@@ -84,6 +123,16 @@ function LUX(){
                     </Slider>
                 </div>
             </div>
+            {/* <div className='carrinho'>
+                <h2>Carrinho</h2>
+                <ul>
+                    {cart.map((item, index) => (
+                        <li key={index}>
+                            {item.name} x {item.quantity} - R$ {(item.price * item.quantity).toLocaleString()}
+                        </li>
+                    ))}
+                </ul> 
+            </div>*/}
         </fieldset>
     )
 }
